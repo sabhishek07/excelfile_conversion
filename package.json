@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "dev": "node ace serve --watch",
-    "dev": "node ace serve --watch",
     "debug": "node ace serve --watch --node-args='--inspect'",
     "build": "node ace build --production",
     "start": "node server.js",
@@ -35,6 +34,7 @@
     "mysql2": "^3.2.0",
     "proxy-addr": "^2.0.7",
     "reflect-metadata": "^0.1.13",
-    "source-map-support": "^0.5.21"
+    "source-map-support": "^0.5.21",
+    "xlsx": "^0.18.5"
   }
 }
